@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #e8b638;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #FFC222;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body style="background-color: #1d1b31;">
+
+<h3 style="text-align: center; font-size: 40px; color: wheat;">Fill below Details</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">Team member 1</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+    <label for="fname">Team member 2</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+    <label for="fname">Team member 3</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="fname">Email address of Team leader</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+    <label for="country">Total required members</label>
+    <select id="country" name="country">
+      <option value="australia">0</option>
+      <option value="canada">1</option>
+      <option value="usa">2</option>
+    </select>
+  
+    <input type="submit" value="Add Project Description">
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
+
+
